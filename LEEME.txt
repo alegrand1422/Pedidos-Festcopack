@@ -1,0 +1,24 @@
+PEDIDOS FESTCOPACK - APP INSTALABLE
+
+PARA PUBLICARLA (una sola vez, 5 minutos)
+1. Entrá a github.com con tu cuenta y tocá "New" para crear un repositorio nuevo.
+   Nombre sugerido: pedidos-festcopack. Dejalo en "Public" y tocá "Create repository".
+2. En la pantalla del repositorio tocá "uploading an existing file".
+3. Arrastrá TODO lo que hay en esta carpeta: index.html, sw.js, manifest.webmanifest y la carpeta iconos.
+   Después tocá "Commit changes".
+4. Entrá a Settings > Pages. En "Branch" elegí "main" y "/ (root)" y tocá Save.
+5. Esperá 1 o 2 minutos. Arriba aparece el link de la app, parecido a:
+   https://TU-USUARIO.github.io/pedidos-festcopack/
+   Ese es el link que les mandás a tus colegas.
+
+PARA INSTALARLA EN EL TELEFONO O LA COMPUTADORA
+- Android (Chrome): abrir el link y tocar "Instalar app" (o menú de los 3 puntos > "Instalar aplicación").
+- iPhone (Safari): abrir el link, tocar Compartir > "Agregar a inicio".
+- Computadora (Chrome o Edge): abrir el link y tocar el ícono de instalar que aparece en la barra de direcciones.
+La primera vez necesita internet. Después funciona sin conexión.
+
+PARA ACTUALIZARLA MAS ADELANTE
+Subí el index.html nuevo al mismo repositorio (reemplaza al anterior). Si querés que todos reciban el cambio rápido,
+abrí sw.js y cambiá 'pedidos-v1' por 'pedidos-v2'.
+
+NOTA: los pedidos que carga cada persona quedan guardados solo en su dispositivo.
