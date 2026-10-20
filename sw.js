@@ -1,6 +1,6 @@
 // Guarda la app en el dispositivo para que funcione sin internet.
 // Si actualizás la app, cambiá el número de VERSION para que todos reciban la nueva.
-const VERSION = 'pedidos-v3';
+const VERSION = 'pedidos-v4';
 const ARCHIVOS = ['./', './index.html', './manifest.webmanifest', './iconos/icono-192.png', './iconos/icono-512.png', './iconos/icono-maskable-512.png'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(VERSION).then(c => c.addAll(ARCHIVOS)).then(() => self.skipWaiting()));

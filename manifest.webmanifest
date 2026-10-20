@@ -1,6 +1,7 @@
 {
-  "name": "Pedidos Festcopack",
-  "short_name": "Pedidos",
+  "id": "/festcopack-pedidos-app",
+  "name": "Festcopack Pedidos",
+  "short_name": "Festcopack",
   "description": "Toma de pedidos Festcopack",
   "start_url": "./",
   "scope": "./",
